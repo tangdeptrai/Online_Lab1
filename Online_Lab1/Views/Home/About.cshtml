@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Architecture</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body */
+        body {
+            font-family: Roboto, sans-serif;
+            background: #e2d7aa;
+            color: #000000;
+            font-size: 16px;
+            width: 1180px;
+            margin: 0 auto; /* Center the container */
+        }
+
+        /* Image Container */
+        image-container {
+            text-align:left;
+            width: 200px;
+            height: 190px;
+            margin-top: 10px;
+        }
+        /* Image */
+        .image1 {
+            margin-left:10px;
+            margin-right:100px;
+            height: 250px;
+            width: 300px;
+        }
+
+        .image2 {
+            margin-right:100px;
+            right:600px;
+            align-content: center;
+            justify-content: space-between;
+            text-align: center;
+            width: 300px;
+            height: 250px;
+        }
+        .image3 {
+            margin-right:10px;
+            text-align: right;
+            width: 300px;
+            height: 250px;
+        }
+        /* Headings */
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            margin-top: 65px;
+            font-family: 'Indie Flower', cursive;
+        }
+
+        /* Navigation */
+        nav {
+            margin: 30px;
+        }
+
+            nav a {
+                font-size: 28px;
+                color: #000000;
+                text-decoration: none;
+                margin: 0 15px;
+            }
+
+        /* Hyperlink */
+        a {
+            color: #0a2d4a;
+            font-weight: bold;
+        }
+
+        /* Image in Article */
+        article img {
+            width: 350px;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+
+        /* First Letter in Paragraph */
+        .first-letter {
+            font-family: EucrosiaUPC, sans-serif;
+            font-size: 40px;
+        }
+
+        /* Hyperlink in Span */
+        span a {
+            background: url(images/bg2.jpg);
+            color: #ffffff;
+            padding: 10px;
+            margin-top: 10px;
+            display: inline-block; 
+
+        /* Footer */
+        footer{
+            margin: 0px;
+            padding: 10px 0;
+            text-align: center;
+        }
+        text  {
+            font-family: EucrosiaUPC, sans-serif;
+            font-size: 40px;
+            margin-left: 5px;
+            margin-right: 10px;
+            word-wrap: break-word;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Ancient Architecture</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">History</a>
+        <a href="#">Gallery</a>
+    </nav>
+
+    <div class="image-container" >
+       <div class="img">  <img src="~/Content/Image/image1.jpg" class="image1" alt="Ancient Roman" />
+        <img src="~/Content/Image/image2.jpg" class="image2" alt="Ancient Greek" />
+        <img src="~/Content/Image/image3.jpg" class="image3" alt="Ancient Indian" /> 
+        </div>
+       <div class="text">
+           <article>
+               <p><span class="first-letter">A</span>ncient Roman architecture adopted the</p>
+               <p>external language of classical Greek architec</p>
+               <p>ture for the purposes of the ancient Romans,</p>
+               <p>but grew so different from Greek buildings </p>
+               <p>as to become a new architectural style.</p>
+               <p>The two styles are often considered one body </p>
+               <p>of classical architecture. Roman architecture</p>
+               <p>flourished in the Roman Republic and even more</p>
+               <p>so under the Empire, when the great majority</p>
+               <p>of surviving buildings were constructed it </p>
+               <p>used new materials, particularly concrete,</p>
+               <p>and newer technologies such as the arch and</p>
+               <p>the dome to make buildings that were typically</p>
+               <p>strong and well-engineered. Large numbers remain</p>
+               <p>in some form across the empire,sometimes complete and still in use.</p>
+</article>
+       </div>
+        </div>
+
+    <footer>
+        © 2024 Ancient Architecture. All rights reserved.
+    </footer>
+</body>
+</html>

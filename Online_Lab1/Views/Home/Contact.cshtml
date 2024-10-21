@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Ancient Architecture</title>
+    <link href="~/Content/ancient-architecture.css" rel="stylesheet" />
+    <style>
+    body {
+            font-family: Roboto, sans-serif;
+            background: #e2d7aa;
+            color: #000000;
+            font-size: 16px;
+            width: 1180px;
+            margin: 0 auto;
+        }
+
+        img {
+            width: 1100px;
+            height: 450px;
+        }
+
+        .image-container {
+            width: 1600px;
+            height: 450px;
+            margin-top: 65px;
+        }
+
+        h1 {
+            font-size: 60px;
+            text-align: center;
+            margin-top: 65px;
+            font-family: Indie Flower, cursive;
+        }
+
+        nav li {
+            margin: 30px;
+            text-decoration: none;
+            display: inline;
+        }
+
+        a {
+            font-size: 28px;
+            color: #000000;
+        }
+
+            a:hover {
+                color: #0a2d4a;
+                font-weight: bold;
+            }
+
+        .article-image {
+            width: 350px;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+
+        article p:first-letter {
+            font-family: EucrosiaUPC, sans-serif;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-right: 100px;
+            font-family: Lucida Console;
+            font-weight: bold;
+        }
+
+        article p:last-of-type span:first-of-type a::before {
+            content: url("images/comment.png");
+            position: relative;
+            right: 5px;
+            top: 7px;
+            padding: 10px;
+        }
+
+        .comments-button, .view-post-button {
+            background: #0a2d4a;
+            color: #ffffff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+         caption{
+            margin-top: 50px;
+            margin-left:10px;
+        }
+
+        footer {
+            margin: 0px;
+            padding: 10px 0 10px 0;
+            text-align: center;
+        }
+
+        .container {
+            display: flex; /* Use flexbox for horizontal layout */
+            justify-content: space-between; /* Space between posts */
+            margin-top: 20px; /* Space above the posts */
+        }
+
+        .post {
+            background: #e2d7aa;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: calc(33.33% - 20px); /* Adjust for spacing */
+            display: flex;
+            flex-direction: column; /* Stack image and text vertically */
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <p>Home</p>
+    <p>Service</p>
+    <p>Blog</p>
+    <p>Portfolio</p>
+    <p>About</p>
+    <p>History</p>
+    <p>Contact</p>
+    <caption>Ancient Acrchitecture</caption>
+    <figure>
+        <img src="~/Content/Image/image0.jpg" alt="Photoshoot image"/>
+    </figure>
+    <div class="container">
+        <div class="post">
+            <article>
+                <h2>Ancient Roman architecture</h2>
+                <h4>posted on 01.01.2017 by <a style="color:blue; font-size:20px">Someone</a></h4>
+                <img src="~/Content/Image/image1.jpg" alt="Post Image 1" class="article-image"/>
+                <p>
+                    Ancient Roman architecture adopted the external language of classical ancient Greek architecture for the purposes of the ancient Romans, but was different from Greek buildings, becoming a new architectural style. The two styles are often considered one body of classical architecture. Roman architecture flourished in the Roman Republic and to an even greater extent under the Empire, when the great majority of surviving buildings were constructed. It used new materials, particularly Roman concrete, and newer technologies such as the arch and the dome to make buildings that were typically strong and well engineered. Large numbers remain in some form across the former empire, sometimes complete and still in use today.
+
+                    Roman architecture covers the period from the establishment of the Roman Republic in 509 BC to about the 4th century AD, after which it becomes reclassified as Late Antique or Byzantine architecture. Few substantial examples survive from before about 100 BC, and most of the major survivals are from the later empire, after about 100 AD. Roman architectural style continued to influence building in the former empire for many centuries, and the style used in Western Europe beginning about 1000 is called Romanesque architecture to reflect this dependence on basic Roman forms.
+                </p>
+                <div class="button-container">
+                    <button class="comments-button">Comments</button>
+                    <button class="view-post-button">View Post</button>
+                </div>
+            </article>
+        </div>
+        <div class="post">
+            <article>
+                <h2>Ancient Greek architecture</h2>
+                <h4>posted on 01.01.2017 by <a style="color:blue; font-size:20px">Someone</a></h4>
+                <img src="~/Content/Image/image2.jpg"   alt="Post Image 2" class="article-image"/>
+                <p>
+                    Ancient Greek architecture came from the Greeks, or Hellenes, whose culture flourished on the Greek mainland, the Peloponnese, the Aegean Islands, and in colonies in Anatolia and Italy for a period from about 900 BC until the 1st century AD, with the earliest remaining architectural works dating from around 600 BC.[1]
+
+                    Ancient Greek architecture is best known for its temples, many of which are found throughout the region, with the Parthenon regarded, now as in ancient times, as the prime example.[2] Most remains are very incomplete ruins, but a number survive substantially intact, mostly outside modern Greece. The second important type of building that survives all over the Hellenic world is the open-air theatre, with the earliest dating from around 525–480 BC. Other architectural forms that are still in evidence are the processional gateway (propylon), the public square (agora) surrounded by storied colonnade (stoa), the town council building (bouleuterion), the public monument, the monumental tomb (mausoleum) and the stadium.
+
+                    Ancient Greek architecture is distinguished by its highly formalised characteristics, both of structure and decoration. This is particularly so in the case of temples where each building appears to have been conceived as a sculptural entity within the landscape, most often raised on high ground so that the elegance of its proportions and the effects of light on its surfaces might be viewed from all angles.[3] Nikolaus Pevsner refers to "the plastic shape of the [Greek] temple [...] placed before us with a physical presence more intense, more alive than that of any later building".[4]
+                </p>
+                <div class="button-container">
+                    <button class="comments-button">Comments</button>
+                    <button class="view-post-button">View Post</button>
+                </div>
+            </article>
+        </div>
+
+        <div class="post">
+            <article>
+                <h2>Ancient Indian architecture</h2>
+                <h4>posted on 01.01.2017 by <a style="color:blue; font-size:20px">Someone</a></h4>
+                <img src="~/Content/Image/image3.jpg"  alt="Post Image 3" class="article-image"/>
+                <p>
+                    Ancient Indian architecture ranges from the Indian Bronze Age to around 800 CE. By this endpoint Buddhism in India had greatly declined, and Hinduism was predominant, and religious and secular building styles had taken on forms, with great regional variation, which they largely retain even after some forceful changes brought about by the arrival of first Islam, and then Europeans.
+
+                    Much early Indian architecture was in wood, which has almost always decayed or burnt, or brick, which has often been taken away for re-use. The large amount of Indian rock-cut architecture, essentially beginning around 250 BCE, is therefore especially important, as much of it clearly adapts forms from contemporary constructed buildings of which no examples remain. There are also a number of important sites where the floor-plan has survived to be excavated, but the upper parts of structures have vanished.
+
+                    In the Bronze Age, the first cities emerged in the Indus Valley civilization. The urbanization in the Gangetic plains began as early as 1200 BC with the emergence of fortified cities and appearance of Northern Black Polished Ware.[2][a][4] The Mahajanapada period was characterized by Indian coins and use of stone in the Indian architecture. The Mauryan period is considered as the beginning of the classical period of Indian architecture. Nagara and Dravidian architectural styles developed in the early medieval period with the rise of Hindu revivalism and predominant role of Hindu temple architecture in the Indian Subcontinent.
+                </p>
+                <div class="button-container">
+                    <button class="comments-button">Comments</button>
+                    <button class="view-post-button">View Post</button>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Blog Name</p>
+    </footer>
+</body>
+</html>

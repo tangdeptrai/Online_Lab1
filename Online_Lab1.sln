@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online_Lab1", "Online_Lab1\Online_Lab1.csproj", "{A9C749C4-8E8C-4F75-B20F-FC7280776D0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{B644C730-09BD-42E6-B3B0-59ADB40985C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS File", "CSS File", "{FCDC0FAD-431B-4CF5-BA9B-CA9BB16CB97A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9C749C4-8E8C-4F75-B20F-FC7280776D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C749C4-8E8C-4F75-B20F-FC7280776D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C749C4-8E8C-4F75-B20F-FC7280776D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C749C4-8E8C-4F75-B20F-FC7280776D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6DBF69F-6CB2-46C4-AF0A-3FFC87957160}
+	EndGlobalSection
+EndGlobal
